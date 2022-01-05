@@ -69,5 +69,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://itwebdevs.com)
-- GitHub [@your-username](https://github.com/haseebhameed/)
+- Website [itwebdevs.com](https://itwebdevs.com)
+- GitHub [@haseebhameed](https://github.com/haseebhameed/)
