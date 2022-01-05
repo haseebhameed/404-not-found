@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://404ipage.netlify.app/">
+    <a href="https://devchallenges.io/solutions/JCP7l2juQ8TCL2Wfweqf">
       Solution
     </a>
     <span> | </span>
