@@ -1,0 +1,205 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+h1 {
+  color: var(--color-heading);
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+}
+button {
+  background: var(--color-heading);
+  color: var(--color-button);
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 14px;
+  border: 0;
+  width: 216px;
+  height: 68px;
+  line-height: 21px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.header__padding {
+  padding: 2.5rem 6rem;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+.footer__padding {
+  padding: 0.65rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+.p404__Container, .p404__NotFoundWrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.p404__Header {
+  height: 17vh;
+}
+
+.logo {
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.p404__NotFoundWrapper {
+  height: 78vh;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.p404__NotFoundImage {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p404__NotFoundContent {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-left: 10px;
+}
+
+.p404__NotFoundImage img {
+  max-width: 540px;
+  width: 100%;
+}
+
+.p404__NotFoundContent h1 {
+  max-width: 586px;
+  padding-bottom: 2rem;
+}
+.p404__NotFoundContent p {
+  font-size: 24px;
+  max-width: 385px;
+  padding-bottom: 3rem;
+}
+.p404__Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5vh;
+}
+.p404__Copyright {
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #BDBDBD;
+}
+.p404__Copyright a {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 840px) {
+  .header__padding {
+    padding: 1.3rem 1.5rem;
+  }
+  
+  .section__padding {
+    padding: 4rem 1.5rem;
+  }
+  .footer__padding {
+    padding: 0.65rem 1.5rem;
+  }
+  .p404__Header {height: 8vh;}
+  .p404__NotFoundWrapper {height: 85vh;}
+  .p404__Footer {height: 7vh;}
+  .p404__NotFoundImage {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 2.5rem;
+  }
+  .p404__NotFoundContent {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 1.3rem;
+  }
+  .p404__NotFoundContent h1 {
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: -0.045em;
+  }
+  .p404__NotFoundContent p {
+    font-size: 18px;
+  }
+  button {
+    font-size: 14px;
+    border: 0;
+    width: 216px;
+    height: 68px;
+    line-height: 21px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+}
